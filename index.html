@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <script src="./js/main.js" defer></script>
+        <title>Weather API</title>
+    </head>
+    <body class="body-container-fluid">   
+
+        <nav class="navbar navbar-dark bg-dark text-light">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">Today's Weather Conditions</span>
+            </div>
+        </nav>
+        
+       <div class="container">
+            <!-- add Header here / add innerHTML --> 
+            <h1 class="location-header"></h1> 
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center p-2">
+                    <form action="" id="weatherForm" >
+                        <div class="form1 form-group mt-2 p-3">
+                            <label for="location" class="text-light">Search by City, State or Zip Code:</label>
+                            <div class="d-flex justify-content-center">
+                                <button class="btn fas fa-search bg-light mt-2" id="button1"></button>
+                                <input type="text" id="input1" class="form-control mt-2" name="location">
+                            </div>
+                            <input type="submit" id="button2" class="btn mt-2 w-100 text-light" value="Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mt-3" id="weatherDisplay">
+                    <!-- Javascript will insert cards here -->
+                </div>
+            </div>
+
+       </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    </body>
+</html>

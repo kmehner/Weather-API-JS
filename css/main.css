@@ -1,0 +1,36 @@
+
+
+body {
+  background-image: url("/static/images/Featured-Image-Live-Weather-Wallpapers-Android.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+  font-family: "Lucida Console", Monospace;
+  
+}
+
+.card{
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  /* background-color: #2D3E51 ; */
+}
+
+#weatherForm {
+  background-color: #2D3E51 ;
+  border-radius: 10%;
+}
+
+
+#input1 {
+  border-radius:0px 20px 20px 0px;
+}
+
+#button1 {
+  border-radius:20px 0px 0px 20px;
+}
+
+#button2 {
+  background-color: #778EA7 ;
+  border-radius: 20px
+}
